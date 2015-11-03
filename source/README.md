@@ -8,5 +8,6 @@ The process we went over in class was complicated and confusing. 99% of what we 
 
 ## How?
 There's a script named `process.sh`. It has two invocation possibilities:
+
 1. `./process.sh transform` will take the `input.contain` file, create a set of instances, and then apply a default template (`etc/layout.ta`) to it. The resulting file, `output.con.ta`, may be opened by `LSEdit`.
 2. `./process.sh lse` will open `output.con.ta` for your viewing and examining pleasure.
