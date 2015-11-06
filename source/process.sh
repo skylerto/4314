@@ -10,8 +10,10 @@ case $1 in
 		bin/runLSEdit.sh output.con.ta
 		;;
 	transform)
+       echo "Parsing away comments"
+      sed -n '/#/!p' input.contain >> .temp.contain
 		echo "Transforming input.contain --> output.con.ta ..."
-		bin/createContainment.sh input.contain output.con.ta
+		bin/createContainment.sh .temp.contain output.con.ta
 		;;
 	*)
 		echo no
