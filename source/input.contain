@@ -1,14 +1,22 @@
 # ALL THE BELOW ARE AS PER THE SUBSYSTEM EXCEL DOC, AND MY INTERPRETATIONS 16:01 06/11/2015
+#
+# Additions being made based on the following web link, 
+# https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code/Directory_structure
 
-contain mozilla CoreAppServices
+
+# Misc contains, as firefox puts it 'Miscellaneous'
+contain mozilla Misc
+contain Misc mozilla/build
+
+# USER INTERFACE LAYER
 contain mozilla UI
-contain mozilla Gecko
-
 contain UI mozilla/xulrunner
 contain UI mozilla/widget
 contain UI mozilla/xpfe
 contain UI mozilla/browser
 
+# GECKO LAYER
+contain mozilla Gecko
 contain Gecko mozilla/dom
 contain Gecko mozilla/toolkit
 contain Gecko mozilla/extensions
@@ -19,25 +27,30 @@ contain Gecko mozilla/b2g
 contain Gecko mozilla/parser
 contain Gecko mozilla/embedding
 
+# CORE APP SERVICES LAYER
+contain mozilla CoreAppServices
+contain CoreAppServices mozilla/xpcom
+contain CoreAppServices mozilla/hal
+
+# SPIDERMONKEY
 contain CoreAppServices SpiderMonkey
 contain SpiderMonkey mozilla/js
 
-
+# NECKO
 contain CoreAppServices Necko
 contain Necko mozilla/netwerk
 contain Necko mozilla/uriloader
 
-contain CoreAppServices mozilla/xpcom
-contain CoreAppServices mozilla/hal
-
+# DATA PERSISTANCE
 contain CoreAppServices DataPersistence
 contain DataPersistence mozilla/startupcache
 contain DataPersistence mozilla/memory
 contain DataPersistence mozilla/storage
 contain DataPersistence mozilla/db
 
+
+### THIS IS LEFT TO ORGANIZE
 contain mozilla mozilla/accessible
-contain mozilla mozilla/build
 contain mozilla mozilla/caps
 contain mozilla mozilla/chrome
 contain mozilla mozilla/config
