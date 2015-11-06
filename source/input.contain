@@ -7,6 +7,11 @@
 # Misc contains, as firefox puts it 'Miscellaneous'
 contain mozilla Misc
 contain Misc mozilla/build
+contain Misc mozilla/modules
+contain Misc mozilla/other-licenses
+contain Misc mozilla/testing
+contain Misc mozilla/config
+contain Misc mozilla/tools
 
 # USER INTERFACE LAYER
 contain mozilla UI
@@ -26,11 +31,18 @@ contain Gecko mozilla/editor
 contain Gecko mozilla/b2g
 contain Gecko mozilla/parser
 contain Gecko mozilla/embedding
+contain Gecko mozilla/chrome
+contain Gecko mozilla/docshell
+contain Gecko mozilla/rdf
 
 # CORE APP SERVICES LAYER
 contain mozilla CoreAppServices
 contain CoreAppServices mozilla/xpcom
 contain CoreAppServices mozilla/hal
+contain CoreAppServices mozilla/ipc
+contain CoreAppServices mozilla/memory
+contain CoreAppServices mozilla/mozglue
+contain CoreAppServices mozilla/nsprpub
 
 # SPIDERMONKEY
 contain CoreAppServices SpiderMonkey
@@ -39,42 +51,40 @@ contain SpiderMonkey mozilla/js
 # NECKO
 contain CoreAppServices Necko
 contain Necko mozilla/netwerk
-contain Necko mozilla/uriloader
+contain Necko mozilla/security
 
 # DATA PERSISTANCE
 contain CoreAppServices DataPersistence
-contain DataPersistence mozilla/startupcache
-contain DataPersistence mozilla/memory
 contain DataPersistence mozilla/storage
 contain DataPersistence mozilla/db
 
+# DISPLAY INTERFACES
+contain CoreAppServices DisplayInterfaces
+contain DisplayInterfaces mozilla/accessible
+contain DisplayInterfaces mozilla/image
+contain DisplayInterfaces mozilla/view
+
 
 ### THIS IS LEFT TO ORGANIZE
-contain mozilla mozilla/accessible
+
+#### SKY DIDN'T KNOW WHERE TO PUT THESE
 contain mozilla mozilla/caps
-contain mozilla mozilla/chrome
-contain mozilla mozilla/config
-contain mozilla mozilla/docshell
-contain mozilla mozilla/image
 contain mozilla mozilla/intl
-contain mozilla mozilla/ipc
 contain mozilla mozilla/media
 contain mozilla mozilla/mfbt
-contain mozilla mozilla/mobile
-contain mozilla mozilla/modules
-contain mozilla mozilla/mozglue
-contain mozilla mozilla/nsprpub
-contain mozilla mozilla/other-licenses
 contain mozilla mozilla/profile
 contain mozilla mozilla/python
-contain mozilla mozilla/rdf
-contain mozilla mozilla/security
-contain mozilla mozilla/services
-contain mozilla mozilla/testing
-contain mozilla mozilla/tools
-contain mozilla mozilla/view
-contain mozilla mozilla/webapprt
 
+#### MIA IN DOCS
+contain mozilla mozilla/mobile
+
+#### DESCRIPTION MIA ON MOZILLA
+contain mozilla mozilla/services
+contain mozilla mozilla/webapprt
+contain mozilla mozilla/startupcache
+contain mozilla mozilla/uriloader
+
+############### BELOW THIS ARE LOW LEVEL CONTAINMENTS ##################
 contain mozilla/accessible/atk mozilla/accessible/atk/AccessibleWrap.cpp
 contain mozilla/accessible/atk mozilla/accessible/atk/AccessibleWrap.h
 contain mozilla/accessible/atk mozilla/accessible/atk/ApplicationAccessibleWrap.cpp
