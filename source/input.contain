@@ -1,56 +1,68 @@
 contain mozilla CoreAppServices
+contain mozilla UI
+contain mozilla Gecko
+
+contain UI mozilla/xulrunner
+contain UI mozilla/widget
+contain UI mozilla/xpfe
+
+contain Gecko mozilla/dom
+contain Gecko mozilla/browser
+contain Gecko mozilla/toolkit
+contain Gecko mozilla/extensions
+contain Gecko mozilla/layout
 
 contain CoreAppServices SpiderMonkey
 contain SpiderMonkey mozilla/js
 
 contain CoreAppServices Necko
 contain Necko mozilla/netwerk
+contain Necko mozilla/uriloader
+
+contain CoreAppServices DisplayBackend
+contain DisplayBackend mozilla/gfx
+
+contain CoreAppServices XMLParser
+contain XMLParser mozilla/parser
+
+
+contain CoreAppServices mozilla/xpcom
+
+contain CoreAppServices DataPersistence
+contain DataPersistence mozilla/startupcache
+contain DataPersistence mozilla/memory
+contain DataPersistence mozilla/storage
+contain DataPersistence mozilla/db
 
 contain mozilla mozilla/accessible
 contain mozilla mozilla/b2g
-contain mozilla mozilla/browser
 contain mozilla mozilla/build
 contain mozilla mozilla/caps
 contain mozilla mozilla/chrome
 contain mozilla mozilla/config
-contain mozilla mozilla/db
 contain mozilla mozilla/docshell
-contain mozilla mozilla/dom
 contain mozilla mozilla/editor
 contain mozilla mozilla/embedding
-contain mozilla mozilla/extensions
-contain mozilla mozilla/gfx
 contain mozilla mozilla/hal
 contain mozilla mozilla/image
 contain mozilla mozilla/intl
 contain mozilla mozilla/ipc
-contain mozilla mozilla/layout
 contain mozilla mozilla/media
-contain mozilla mozilla/memory
 contain mozilla mozilla/mfbt
 contain mozilla mozilla/mobile
 contain mozilla mozilla/modules
 contain mozilla mozilla/mozglue
 contain mozilla mozilla/nsprpub
 contain mozilla mozilla/other-licenses
-contain mozilla mozilla/parser
 contain mozilla mozilla/profile
 contain mozilla mozilla/python
 contain mozilla mozilla/rdf
 contain mozilla mozilla/security
 contain mozilla mozilla/services
-contain mozilla mozilla/startupcache
-contain mozilla mozilla/storage
 contain mozilla mozilla/testing
-contain mozilla mozilla/toolkit
 contain mozilla mozilla/tools
-contain mozilla mozilla/uriloader
 contain mozilla mozilla/view
 contain mozilla mozilla/webapprt
-contain mozilla mozilla/widget
-contain mozilla mozilla/xpcom
-contain mozilla mozilla/xpfe
-contain mozilla mozilla/xulrunner
 
 contain mozilla/accessible/atk mozilla/accessible/atk/AccessibleWrap.cpp
 contain mozilla/accessible/atk mozilla/accessible/atk/AccessibleWrap.h
