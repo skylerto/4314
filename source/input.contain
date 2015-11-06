@@ -1,3 +1,5 @@
+# ALL THE BELOW ARE AS PER THE SUBSYSTEM EXCEL DOC, AND MY INTERPRETATIONS 16:01 06/11/2015
+
 contain mozilla CoreAppServices
 contain mozilla UI
 contain mozilla Gecko
@@ -5,28 +7,28 @@ contain mozilla Gecko
 contain UI mozilla/xulrunner
 contain UI mozilla/widget
 contain UI mozilla/xpfe
+contain UI mozilla/browser
 
 contain Gecko mozilla/dom
-contain Gecko mozilla/browser
 contain Gecko mozilla/toolkit
 contain Gecko mozilla/extensions
 contain Gecko mozilla/layout
+contain Gecko mozilla/gfx
+contain Gecko mozilla/editor
+contain Gecko mozilla/b2g
+contain Gecko mozilla/parser
+contain Gecko mozilla/embedding
 
 contain CoreAppServices SpiderMonkey
 contain SpiderMonkey mozilla/js
+
 
 contain CoreAppServices Necko
 contain Necko mozilla/netwerk
 contain Necko mozilla/uriloader
 
-contain CoreAppServices DisplayBackend
-contain DisplayBackend mozilla/gfx
-
-contain CoreAppServices XMLParser
-contain XMLParser mozilla/parser
-
-
 contain CoreAppServices mozilla/xpcom
+contain CoreAppServices mozilla/hal
 
 contain CoreAppServices DataPersistence
 contain DataPersistence mozilla/startupcache
@@ -35,15 +37,11 @@ contain DataPersistence mozilla/storage
 contain DataPersistence mozilla/db
 
 contain mozilla mozilla/accessible
-contain mozilla mozilla/b2g
 contain mozilla mozilla/build
 contain mozilla mozilla/caps
 contain mozilla mozilla/chrome
 contain mozilla mozilla/config
 contain mozilla mozilla/docshell
-contain mozilla mozilla/editor
-contain mozilla mozilla/embedding
-contain mozilla mozilla/hal
 contain mozilla mozilla/image
 contain mozilla mozilla/intl
 contain mozilla mozilla/ipc
