@@ -13,6 +13,7 @@ contain Misc mozilla/testing
 contain Misc mozilla/config
 contain Misc mozilla/tools
 contain Misc mozilla/python
+contain Misc mozilla/intl/icu
 
 # USER INTERFACE LAYER
 contain mozilla UI
@@ -86,7 +87,6 @@ contain Internationalization mozilla/intl/unicharutil
 contain CoreAppServices mozilla/intl
 contain CoreAppServices mozilla/media
 contain CoreAppServices mozilla/mfbt
-contain mozilla/intl mozilla/intl/icu
 
 #### MIA IN DOCS
 contain CoreAppServices mozilla/mobile
