@@ -67,6 +67,7 @@ contain CoreAppServices DataPersistence
 contain DataPersistence mozilla/storage
 contain DataPersistence mozilla/db
 contain DataPersistence mozilla/profile
+contain CoreAppServices mozilla/startupcache
 
 # DISPLAY INTERFACES
 contain CoreAppServices DisplayInterfaces
@@ -87,10 +88,6 @@ contain Internationalization mozilla/intl/lwbrk
 contain Internationalization mozilla/intl/strres
 contain Internationalization mozilla/intl/uconv
 contain Internationalization mozilla/intl/unicharutil
-
-### THIS IS LEFT TO ORGANIZE
-#### DESCRIPTION MIA ON MOZILLA
-contain CoreAppServices mozilla/startupcache
 
 ############### BELOW THIS ARE LOW LEVEL CONTAINMENTS ##################
 contain mozilla/accessible/atk mozilla/accessible/atk/AccessibleWrap.cpp
