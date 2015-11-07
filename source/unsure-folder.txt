@@ -1,0 +1,14 @@
+caps    		- 116/200 		xpcom
+intl  			- 1074/14261 	xpcom
+media 			- 1053/29757 	build
+mfbt			- 24/155     	gfx
+mobile			- 23/37			xpcom
+probes			- NOT IN DEPENDENCY FILE
+profile			- 40/55			xpcom
+python			- 9/62			js
+services		- 12/20			security
+startupcache	- 47/70			xpcom
+uriloader		- 454/723		xpcom
+webapprt		- 20/24			xpcom
+
+All numbers have an error rate of up to 2 lines
