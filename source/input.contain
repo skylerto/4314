@@ -44,6 +44,8 @@ contain CoreAppServices mozilla/ipc
 contain CoreAppServices mozilla/memory
 contain CoreAppServices mozilla/mozglue
 contain CoreAppServices mozilla/nsprpub
+contain CoreAppServices mozilla/profile
+contain CoreAppServices mozilla/services
 
 # SPIDERMONKEY
 contain CoreAppServices SpiderMonkey
@@ -69,20 +71,19 @@ contain DisplayInterfaces mozilla/view
 
 ### THIS IS LEFT TO ORGANIZE
 
-#### SKY DIDN'T KNOW WHERE TO PUT THESE
-contain mozilla mozilla/caps
-contain mozilla mozilla/intl
-contain mozilla mozilla/media
-contain mozilla mozilla/mfbt
+contain CoreAppServices mozilla/caps
+contain CoreAppServices mozilla/intl
+contain CoreAppServices mozilla/media
+contain CoreAppServices mozilla/mfbt
+contain CoreAppServices mozilla/python
 
 #### MIA IN DOCS
-contain mozilla mozilla/mobile
+contain CoreAppServices mozilla/mobile
 
 #### DESCRIPTION MIA ON MOZILLA
-contain mozilla mozilla/services
-contain mozilla mozilla/webapprt
-contain mozilla mozilla/startupcache
-contain mozilla mozilla/uriloader
+contain CoreAppServices mozilla/webapprt
+contain CoreAppServices mozilla/startupcache
+contain CoreAppServices mozilla/uriloader
 
 ############### BELOW THIS ARE LOW LEVEL CONTAINMENTS ##################
 contain mozilla/accessible/atk mozilla/accessible/atk/AccessibleWrap.cpp
