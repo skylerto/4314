@@ -74,13 +74,13 @@ contain Security mozilla/caps
 # INTERNATIONALIZATION
 contain CoreAppServices Internationalization
 contain Internationalization mozilla/intl/chardet
+contain Internationalization mozilla/intl/hyphenation
 
 ### THIS IS LEFT TO ORGANIZE
 
 contain CoreAppServices mozilla/intl
 contain CoreAppServices mozilla/media
 contain CoreAppServices mozilla/mfbt
-contain mozilla/intl mozilla/intl/hyphenation
 contain mozilla/intl mozilla/intl/icu
 contain mozilla/intl mozilla/intl/locale
 contain mozilla/intl mozilla/intl/lwbrk
