@@ -67,10 +67,12 @@ contain DisplayInterfaces mozilla/accessible
 contain DisplayInterfaces mozilla/image
 contain DisplayInterfaces mozilla/view
 
+# Security
+contain CoreAppServices Security
+contain Security mozilla/caps
 
 ### THIS IS LEFT TO ORGANIZE
 
-contain CoreAppServices mozilla/caps
 contain CoreAppServices mozilla/intl
 contain CoreAppServices mozilla/media
 contain CoreAppServices mozilla/mfbt
