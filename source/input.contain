@@ -75,6 +75,11 @@ contain Security mozilla/caps
 contain CoreAppServices Internationalization
 contain Internationalization mozilla/intl/chardet
 contain Internationalization mozilla/intl/hyphenation
+contain Internationalization mozilla/intl/locale
+contain Internationalization mozilla/intl/lwbrk
+contain Internationalization mozilla/intl/strres
+contain Internationalization mozilla/intl/uconv
+contain Internationalization mozilla/intl/unicharutil
 
 ### THIS IS LEFT TO ORGANIZE
 
@@ -82,11 +87,6 @@ contain CoreAppServices mozilla/intl
 contain CoreAppServices mozilla/media
 contain CoreAppServices mozilla/mfbt
 contain mozilla/intl mozilla/intl/icu
-contain mozilla/intl mozilla/intl/locale
-contain mozilla/intl mozilla/intl/lwbrk
-contain mozilla/intl mozilla/intl/strres
-contain mozilla/intl mozilla/intl/uconv
-contain mozilla/intl mozilla/intl/unicharutil
 
 #### MIA IN DOCS
 contain CoreAppServices mozilla/mobile
