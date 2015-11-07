@@ -76,6 +76,14 @@ contain Security mozilla/caps
 contain CoreAppServices mozilla/intl
 contain CoreAppServices mozilla/media
 contain CoreAppServices mozilla/mfbt
+contain mozilla/intl mozilla/intl/chardet
+contain mozilla/intl mozilla/intl/hyphenation
+contain mozilla/intl mozilla/intl/icu
+contain mozilla/intl mozilla/intl/locale
+contain mozilla/intl mozilla/intl/lwbrk
+contain mozilla/intl mozilla/intl/strres
+contain mozilla/intl mozilla/intl/uconv
+contain mozilla/intl mozilla/intl/unicharutil
 
 #### MIA IN DOCS
 contain CoreAppServices mozilla/mobile
@@ -9206,14 +9214,6 @@ contain mozilla/intl/lwbrk mozilla/intl/lwbrk/tests
 contain mozilla/intl/lwbrk mozilla/intl/lwbrk/th_char.h
 contain mozilla/intl/lwbrk/tests mozilla/intl/lwbrk/tests/TestLineBreak.cpp
 contain mozilla/intl mozilla/intl/build
-contain mozilla/intl mozilla/intl/chardet
-contain mozilla/intl mozilla/intl/hyphenation
-contain mozilla/intl mozilla/intl/icu
-contain mozilla/intl mozilla/intl/locale
-contain mozilla/intl mozilla/intl/lwbrk
-contain mozilla/intl mozilla/intl/strres
-contain mozilla/intl mozilla/intl/uconv
-contain mozilla/intl mozilla/intl/unicharutil
 contain mozilla/intl/strres mozilla/intl/strres/nsStringBundle.cpp
 contain mozilla/intl/strres mozilla/intl/strres/nsStringBundle.h
 contain mozilla/intl/strres mozilla/intl/strres/nsStringBundleService.h
