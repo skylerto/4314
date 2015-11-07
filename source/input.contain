@@ -51,6 +51,7 @@ contain CoreAppServices mozilla/mozglue
 contain CoreAppServices mozilla/nsprpub
 contain CoreAppServices mozilla/services
 contain CoreAppServices mozilla/webapprt
+contain CoreAppServices mozilla/uriloader
 
 # SPIDERMONKEY
 contain CoreAppServices SpiderMonkey
@@ -60,7 +61,6 @@ contain SpiderMonkey mozilla/js
 contain CoreAppServices Necko
 contain Necko mozilla/netwerk
 contain Necko mozilla/security
-contain CoreAppServices mozilla/uriloader
 
 # DATA PERSISTANCE
 contain CoreAppServices DataPersistence
