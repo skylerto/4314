@@ -14,6 +14,7 @@ contain Misc mozilla/config
 contain Misc mozilla/tools
 contain Misc mozilla/python
 contain Misc mozilla/intl/icu
+contain Misc mozilla/intl/build
 
 # USER INTERFACE LAYER
 contain mozilla UI
@@ -84,7 +85,6 @@ contain Internationalization mozilla/intl/unicharutil
 
 ### THIS IS LEFT TO ORGANIZE
 
-contain CoreAppServices mozilla/intl
 contain CoreAppServices mozilla/media
 contain CoreAppServices mozilla/mfbt
 
@@ -9216,7 +9216,6 @@ contain mozilla/intl/lwbrk mozilla/intl/lwbrk/rulebrk.h
 contain mozilla/intl/lwbrk mozilla/intl/lwbrk/tests
 contain mozilla/intl/lwbrk mozilla/intl/lwbrk/th_char.h
 contain mozilla/intl/lwbrk/tests mozilla/intl/lwbrk/tests/TestLineBreak.cpp
-contain mozilla/intl mozilla/intl/build
 contain mozilla/intl/strres mozilla/intl/strres/nsStringBundle.cpp
 contain mozilla/intl/strres mozilla/intl/strres/nsStringBundle.h
 contain mozilla/intl/strres mozilla/intl/strres/nsStringBundleService.h
