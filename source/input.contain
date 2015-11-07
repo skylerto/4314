@@ -60,6 +60,7 @@ contain SpiderMonkey mozilla/js
 contain CoreAppServices Necko
 contain Necko mozilla/netwerk
 contain Necko mozilla/security
+contain CoreAppServices mozilla/uriloader
 
 # DATA PERSISTANCE
 contain CoreAppServices DataPersistence
@@ -90,7 +91,6 @@ contain Internationalization mozilla/intl/unicharutil
 ### THIS IS LEFT TO ORGANIZE
 #### DESCRIPTION MIA ON MOZILLA
 contain CoreAppServices mozilla/startupcache
-contain CoreAppServices mozilla/uriloader
 
 ############### BELOW THIS ARE LOW LEVEL CONTAINMENTS ##################
 contain mozilla/accessible/atk mozilla/accessible/atk/AccessibleWrap.cpp
