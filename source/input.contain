@@ -57,6 +57,7 @@ contain Necko mozilla/security
 contain CoreAppServices DataPersistence
 contain DataPersistence mozilla/storage
 contain DataPersistence mozilla/db
+contain DataPersistence mozilla/profile
 
 # DISPLAY INTERFACES
 contain CoreAppServices DisplayInterfaces
@@ -72,7 +73,6 @@ contain mozilla mozilla/caps
 contain mozilla mozilla/intl
 contain mozilla mozilla/media
 contain mozilla mozilla/mfbt
-contain mozilla mozilla/profile
 
 #### MIA IN DOCS
 contain mozilla mozilla/mobile
