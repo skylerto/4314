@@ -71,12 +71,15 @@ contain DisplayInterfaces mozilla/view
 contain CoreAppServices Security
 contain Security mozilla/caps
 
+# INTERNATIONALIZATION
+contain CoreAppServices Internationalization
+contain Internationalization mozilla/intl/chardet
+
 ### THIS IS LEFT TO ORGANIZE
 
 contain CoreAppServices mozilla/intl
 contain CoreAppServices mozilla/media
 contain CoreAppServices mozilla/mfbt
-contain mozilla/intl mozilla/intl/chardet
 contain mozilla/intl mozilla/intl/hyphenation
 contain mozilla/intl mozilla/intl/icu
 contain mozilla/intl mozilla/intl/locale
