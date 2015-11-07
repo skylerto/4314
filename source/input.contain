@@ -16,6 +16,7 @@ contain Misc mozilla/python
 contain Misc mozilla/intl/icu
 contain Misc mozilla/intl/build
 contain Misc mozilla/mfbt
+contain CoreAppServices mozilla/mobile
 
 # USER INTERFACE LAYER
 contain mozilla UI
@@ -86,10 +87,6 @@ contain Internationalization mozilla/intl/uconv
 contain Internationalization mozilla/intl/unicharutil
 
 ### THIS IS LEFT TO ORGANIZE
-
-#### MIA IN DOCS
-contain CoreAppServices mozilla/mobile
-
 #### DESCRIPTION MIA ON MOZILLA
 contain CoreAppServices mozilla/webapprt
 contain CoreAppServices mozilla/startupcache
