@@ -50,6 +50,7 @@ contain CoreAppServices mozilla/memory
 contain CoreAppServices mozilla/mozglue
 contain CoreAppServices mozilla/nsprpub
 contain CoreAppServices mozilla/services
+contain CoreAppServices mozilla/webapprt
 
 # SPIDERMONKEY
 contain CoreAppServices SpiderMonkey
@@ -88,7 +89,6 @@ contain Internationalization mozilla/intl/unicharutil
 
 ### THIS IS LEFT TO ORGANIZE
 #### DESCRIPTION MIA ON MOZILLA
-contain CoreAppServices mozilla/webapprt
 contain CoreAppServices mozilla/startupcache
 contain CoreAppServices mozilla/uriloader
 
