@@ -37,6 +37,7 @@ contain Gecko mozilla/embedding
 contain Gecko mozilla/chrome
 contain Gecko mozilla/docshell
 contain Gecko mozilla/rdf
+contain Gecko mozilla/media
 
 # CORE APP SERVICES LAYER
 contain mozilla CoreAppServices
@@ -85,7 +86,6 @@ contain Internationalization mozilla/intl/unicharutil
 
 ### THIS IS LEFT TO ORGANIZE
 
-contain CoreAppServices mozilla/media
 contain CoreAppServices mozilla/mfbt
 
 #### MIA IN DOCS
