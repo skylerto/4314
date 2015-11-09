@@ -67,7 +67,7 @@ contain CoreAppServices DataPersistence
 contain DataPersistence mozilla/storage
 contain DataPersistence mozilla/db
 contain DataPersistence mozilla/profile
-contain CoreAppServices mozilla/startupcache
+contain DataPersistence mozilla/startupcache
 
 # DISPLAY INTERFACES
 contain CoreAppServices DisplayInterfaces
