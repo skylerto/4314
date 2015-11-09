@@ -49,7 +49,6 @@ contain CoreAppServices mozilla/ipc
 contain CoreAppServices mozilla/memory
 contain CoreAppServices mozilla/mozglue
 contain CoreAppServices mozilla/nsprpub
-contain CoreAppServices mozilla/services
 contain CoreAppServices mozilla/webapprt
 contain CoreAppServices mozilla/uriloader
 
@@ -61,6 +60,7 @@ contain SpiderMonkey mozilla/js
 contain CoreAppServices Necko
 contain Necko mozilla/netwerk
 contain Necko mozilla/security
+contain Necko mozilla/services
 
 # DATA PERSISTANCE
 contain CoreAppServices DataPersistence
