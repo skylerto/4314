@@ -33,7 +33,6 @@ contain Gecko mozilla/view
 contain mozilla CoreAppServices
 contain CoreAppServices mozilla/ipc
 contain CoreAppServices mozilla/memory
-contain CoreAppServices mozilla/mozglue
 contain CoreAppServices mozilla/nsprpub
 contain CoreAppServices mozilla/webapprt
 contain CoreAppServices mozilla/uriloader
@@ -71,6 +70,7 @@ contain Libraries mozilla/modules
 contain Libraries mozilla/intl/icu
 contain Libraries mozilla/intl/build
 contain Libraries mozilla/mfbt
+contain Libraries mozilla/mozglue
 
 # SECURITY
 contain CoreAppServices Security
