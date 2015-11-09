@@ -40,6 +40,7 @@ contain Gecko mozilla/chrome
 contain Gecko mozilla/docshell
 contain Gecko mozilla/rdf
 contain Gecko mozilla/media
+contain Gecko mozilla/view
 
 # CORE APP SERVICES LAYER
 contain mozilla CoreAppServices
@@ -73,7 +74,6 @@ contain DataPersistence mozilla/startupcache
 contain CoreAppServices DisplayInterfaces
 contain DisplayInterfaces mozilla/accessible
 contain DisplayInterfaces mozilla/image
-contain DisplayInterfaces mozilla/view
 
 # Security
 contain CoreAppServices Security
