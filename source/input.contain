@@ -44,14 +44,16 @@ contain Gecko mozilla/view
 
 # CORE APP SERVICES LAYER
 contain mozilla CoreAppServices
-contain CoreAppServices mozilla/xpcom
-contain CoreAppServices mozilla/hal
 contain CoreAppServices mozilla/ipc
 contain CoreAppServices mozilla/memory
 contain CoreAppServices mozilla/mozglue
 contain CoreAppServices mozilla/nsprpub
 contain CoreAppServices mozilla/webapprt
 contain CoreAppServices mozilla/uriloader
+
+# HAL
+contain CoreAppServices HAL
+contain HAL mozilla/hal
 
 # SPIDERMONKEY
 contain CoreAppServices SpiderMonkey
@@ -75,7 +77,11 @@ contain CoreAppServices DisplayInterfaces
 contain DisplayInterfaces mozilla/accessible
 contain DisplayInterfaces mozilla/image
 
-# Security
+# LIBRARIES
+contain mozilla Libraries
+contain Libraries mozilla/xpcom
+
+# SECURITY
 contain CoreAppServices Security
 contain Security mozilla/caps
 
