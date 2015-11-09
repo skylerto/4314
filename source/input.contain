@@ -30,11 +30,16 @@ contain Gecko mozilla/view
 
 # CORE APP SERVICES LAYER
 contain mozilla CoreAppServices
-contain CoreAppServices mozilla/ipc
-contain CoreAppServices mozilla/memory
-contain CoreAppServices mozilla/nsprpub
-contain CoreAppServices mozilla/webapprt
-contain CoreAppServices mozilla/uriloader
+contain CoreAppServices Ipc
+contain CoreAppServices Memory
+contain CoreAppServices Nsprpub
+contain CoreAppServices Webapprt
+contain CoreAppServices Uriloader
+contain CoreAppServices/ipc mozilla/ipc
+contain CoreAppServices/memory mozilla/memory
+contain CoreAppServices/nsprpub mozilla/nsprpub
+contain CoreAppServices/webapprt mozilla/webapprt
+contain CoreAppServices/uriloader mozilla/uriloader
 
 # HAL
 contain CoreAppServices HAL
