@@ -66,7 +66,7 @@ contain Necko mozilla/security
 contain Necko mozilla/services
 
 # DATA PERSISTANCE
-contain CoreAppServices DataPersistence
+contain Libraries DataPersistence
 contain DataPersistence mozilla/storage
 contain DataPersistence mozilla/db
 contain DataPersistence mozilla/profile
