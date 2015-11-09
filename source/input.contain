@@ -27,6 +27,7 @@ contain Gecko mozilla/docshell
 contain Gecko mozilla/rdf
 contain Gecko mozilla/media
 contain Gecko mozilla/view
+contain Gecko mozilla/image
 
 # CORE APP SERVICES LAYER
 contain mozilla CoreAppServices
@@ -35,11 +36,11 @@ contain CoreAppServices Memory
 contain CoreAppServices Nsprpub
 contain CoreAppServices Webapprt
 contain CoreAppServices Uriloader
-contain CoreAppServices/ipc mozilla/ipc
-contain CoreAppServices/memory mozilla/memory
-contain CoreAppServices/nsprpub mozilla/nsprpub
-contain CoreAppServices/webapprt mozilla/webapprt
-contain CoreAppServices/uriloader mozilla/uriloader
+contain Ipc mozilla/ipc
+contain Memory mozilla/memory
+contain Nsprpub mozilla/nsprpub
+contain Webapprt mozilla/webapprt
+contain Uriloader mozilla/uriloader
 
 # HAL
 contain CoreAppServices HAL
@@ -65,7 +66,6 @@ contain DataPersistence mozilla/startupcache
 # DISPLAY INTERFACES
 contain CoreAppServices DisplayInterfaces
 contain DisplayInterfaces mozilla/accessible
-contain DisplayInterfaces mozilla/image
 
 # LIBRARIES
 contain mozilla Libraries
