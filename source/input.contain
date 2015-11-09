@@ -20,7 +20,6 @@ contain Gecko mozilla/extensions
 contain Gecko mozilla/layout
 contain Gecko mozilla/gfx
 contain Gecko mozilla/editor
-contain Gecko mozilla/b2g
 contain Gecko mozilla/parser
 contain Gecko mozilla/embedding
 contain Gecko mozilla/chrome
@@ -398,12 +397,6 @@ contain mozilla/accessible/xul mozilla/accessible/xul/XULTreeAccessible.cpp
 contain mozilla/accessible/xul mozilla/accessible/xul/XULTreeAccessible.h
 contain mozilla/accessible/xul mozilla/accessible/xul/XULTreeGridAccessible.cpp
 contain mozilla/accessible/xul mozilla/accessible/xul/XULTreeGridAccessible.h
-contain mozilla/b2g/app mozilla/b2g/app/B2GLoader.cpp
-contain mozilla/b2g/app mozilla/b2g/app/nsBrowserApp.cpp
-contain mozilla/b2g/gaia mozilla/b2g/gaia/run-b2g.c
-contain mozilla/b2g/gaia mozilla/b2g/gaia/run-b2g.cpp
-contain mozilla/b2g mozilla/b2g/app
-contain mozilla/b2g mozilla/b2g/gaia
 contain mozilla/browser/app mozilla/browser/app/nsBrowserApp.cpp
 contain mozilla/browser/components/about mozilla/browser/components/about/AboutRedirector.cpp
 contain mozilla/browser/components/about mozilla/browser/components/about/AboutRedirector.h
