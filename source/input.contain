@@ -4,12 +4,6 @@
 # https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code/Directory_structure
 
 
-# Misc contains, as firefox puts it 'Miscellaneous'
-contain mozilla Misc
-contain Misc mozilla/modules
-contain Misc mozilla/intl/icu
-contain Misc mozilla/intl/build
-contain Misc mozilla/mfbt
 
 # USER INTERFACE LAYER
 contain mozilla UI
@@ -73,6 +67,10 @@ contain DisplayInterfaces mozilla/image
 # LIBRARIES
 contain mozilla Libraries
 contain Libraries mozilla/xpcom
+contain Libraries mozilla/modules
+contain Libraries mozilla/intl/icu
+contain Libraries mozilla/intl/build
+contain Libraries mozilla/mfbt
 
 # SECURITY
 contain CoreAppServices Security
