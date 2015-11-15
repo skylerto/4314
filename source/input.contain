@@ -32,14 +32,10 @@ contain Gecko mozilla/image
 # CORE APP SERVICES LAYER
 contain mozilla CoreAppServices
 contain CoreAppServices Ipc
-contain CoreAppServices Memory
 contain CoreAppServices Nsprpub
-contain CoreAppServices Webapprt
 contain CoreAppServices Uriloader
 contain Ipc mozilla/ipc
-contain Memory mozilla/memory
 contain Nsprpub mozilla/nsprpub
-contain Webapprt mozilla/webapprt
 contain Uriloader mozilla/uriloader
 
 # HAL
@@ -62,6 +58,7 @@ contain DataPersistence mozilla/storage
 contain DataPersistence mozilla/db
 contain DataPersistence mozilla/profile
 contain DataPersistence mozilla/startupcache
+contain DataPersistence mozilla/memory
 
 # DISPLAY INTERFACES
 contain CoreAppServices DisplayInterfaces
@@ -75,6 +72,7 @@ contain Libraries mozilla/intl/icu
 contain Libraries mozilla/intl/build
 contain Libraries mozilla/mfbt
 contain Libraries mozilla/mozglue
+contain Libraries mozilla/webapprt
 
 # SECURITY
 contain CoreAppServices Security
