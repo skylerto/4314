@@ -1,0 +1,230 @@
+// Landscape TA file written by LSEdit 7.3.12
+// Landscape TA file written by LSEdit 7.3.12
+// Landscape TA file written by LSEdit 7.3.12
+// SCHEMA
+// Author: Jingwei Wu
+// Inheritance
+// Relation Inheritance
+
+SCHEME TUPLE :
+
+$INHERIT cFunction cFile
+$INHERIT cFile cSubSystem
+$INHERIT cSubSystem $ENTITY
+$INHERIT (contain) ($RELATION)
+$INHERIT (cLinks) ($RELATION)
+
+contain cFunction cFunction
+cLinks cFunction cFunction
+
+
+SCHEME ATTRIBUTE :
+
+$ENTITY{
+ color = (0 0 255)
+ labelcolor = (0 255 255)
+ class_style = 0
+}
+
+cFunction{
+ color = (255 0 0)
+ labelcolor = (0 0 0)
+ class_style = 1
+}
+
+cSubSystem{
+ color = (0 0 255)
+ class_style = 4
+}
+
+cFile{
+ color = (230 230 230)
+ labelcolor = (0 0 0)
+ class_style = 2
+}
+
+(cLinks){
+ color = (0 0 0)
+ class_style = 0
+}
+
+($RELATION){
+ class_iofactor = 0
+ color = (0 0 0)
+ class_style = 0
+}
+
+(contain){
+ class_hierarchy = 0
+ class_iscontains = 0
+ class_style = 0
+ class_active = 0
+}
+
+
+
+FACT TUPLE :
+
+$INSTANCE UI cSubSystem
+$INSTANCE CoreAppServices cSubSystem
+$INSTANCE Component2 cSubSystem
+$INSTANCE Component1 cSubSystem
+$INSTANCE Component3 cSubSystem
+$INSTANCE CoreAppFacade cSubSystem
+$INSTANCE DOM cSubSystem
+cLinks UI DOM
+contain CoreAppServices Component2
+contain CoreAppServices Component1
+contain CoreAppServices Component3
+contain CoreAppServices CoreAppFacade
+cLinks Component2 CoreAppFacade
+cLinks Component1 CoreAppFacade
+cLinks Component3 CoreAppFacade
+cLinks CoreAppFacade DOM
+cLinks CoreAppFacade Component1
+cLinks CoreAppFacade Component2
+cLinks CoreAppFacade Component3
+cLinks DOM UI
+cLinks DOM CoreAppFacade
+
+
+FACT ATTRIBUTE :
+
+$ROOT{
+ version = 7003012
+ diagram:drawroot = $ROOT
+font[1]="Helvetica,0,12"
+font[2]="Helvetica,0,10"
+font[3]="Helvetica,0,12"
+font[4]="Helvetica,0,10"
+font[5]="Helvetica,0,9"
+font[6]="Helvetica,1,14"
+font[7]="Helvetica,0,11"
+font[8]="Helvetica,1,12"
+font[9]="Helvetica,0,11"
+font[10]="Helvetica,1,12"
+font[11]="Helvetica,0,11"
+font[12]="Helvetica,0,11"
+font[13]="Helvetica,0,11"
+font[14]="Helvetica,0,11"
+font[15]="Helvetica,0,10"
+font[16]="Helvetica,1,14"
+font[17]="Helvetica,0,11"
+font[18]="Helvetica,0,11"
+font[19]="Dialog,1,12"
+font[20]="Dialog,0,12"
+font[21]="Helvetica,0,11"
+font[22]="Helvetica,0,11"
+font[23]="Helvetica,0,11"
+font[24]="Helvetica,0,11"
+font[25]="Helvetica,0,11"
+option:gridsize=1
+option:gridcolor=(255 255 255)
+option:elisionicon=-1
+option:showdesc=true
+option:showfeedback=true
+option:lefttabbox=false
+option:tabsscroll=false
+option:fixedscrollbars=false
+option:sorttoc=false
+option:topclients=true
+option:showclients=true
+option:showsuppliers=true
+option:usecompaction=true
+option:visibleedges=false
+option:visibleentities=false
+option:liftedges=true
+option:dstcardinals=false
+option:srccardinals=false
+option:groupquery=false
+option:querypersists=false
+option:focusancestor=false
+option:hideempty=false
+option:membercounts=false
+option:inheritance=false
+option:legendblack=false
+option:showgrid=false
+option:snaptogrid=true
+option:chasehide=false
+option:toolbar=true
+option:visiblespans=true
+arrow:linewidth=1
+arrow:linelength=10.0
+arrow:arc=0.4
+arrow:3dpixels=3
+arrow:shadow=5
+arrow:labelarc=0.0
+arrow:hover=1.0
+arrow:zoomx=1.0
+arrow:zoomy=1.0
+arrow:iconpath=".;icons;../icons"
+arrow:edgemode=3
+arrow:iconrule=0
+arrow:chase=-1
+arrow:iconfixed=true
+arrow:fill=true
+arrow:center=false
+arrow:weighted=true
+arrow:blackwhite=true
+arrow:edgelabel=false
+arrow:rotate=false
+arrow:edgetip=false
+arrow:color=false
+arrow:invert=false
+arrow:labelfg=false
+arrow:labelbg=false
+arrow:labelbw=false
+label = $ROOT
+}
+UI{
+ xrel      = -5104
+ yrel      = -30327
+ widthrel  = -23593
+ heightrel = -20509
+ fontdelta = 7
+}
+CoreAppServices{
+ xrel      = -21457
+ yrel      = -1456
+ widthrel  = 9142
+ heightrel = 970
+ open = (contain)
+}
+Component2{
+ xrel      = -7344
+ yrel      = 12450
+ widthrel  = -16980
+ heightrel = -13543
+ label = SpiderMonkey
+ fontdelta = 5
+}
+Component1{
+ xrel      = -31493
+ yrel      = 12012
+ widthrel  = -16980
+ heightrel = -13543
+ label = Necko
+ fontdelta = 6
+}
+Component3{
+ xrel      = 15941
+ yrel      = 12013
+ widthrel  = -16980
+ heightrel = -13543
+ label = URILoader
+ fontdelta = 7
+}
+CoreAppFacade{
+ xrel      = -7312
+ yrel      = -24465
+ widthrel  = -16980
+ heightrel = -13543
+ fontdelta = 6
+}
+DOM{
+ xrel      = -5174
+ yrel      = -13315
+ widthrel  = -23342
+ heightrel = -21359
+ fontdelta = 7
+}
